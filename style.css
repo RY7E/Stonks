@@ -118,7 +118,7 @@ html, body {
 .balance{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 10px;
     height: 30vh;
     width: 100%;
     /* border: 1px solid red; */
@@ -131,7 +131,7 @@ html, body {
     display: flex;
     /* border: 1px solid red; */
     gap: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 
@@ -190,18 +190,20 @@ html, body {
     width: 100%;
     height: 37vh;
     /* border: 1px solid white; */
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     gap: 5px;
+    row-gap: 10px;
 }
 
 .card {
     padding: 1rem;
     background-color: #fff;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    max-width: 320px;
+    width: 200px;
     border-radius: 20px;
 }
   
@@ -235,7 +237,7 @@ html, body {
 }
 
 .percent {
-    margin-left: 0.5rem;
+    margin-left: 5px;
     color: #02972f;
     font-weight: 600;
     display: flex;
